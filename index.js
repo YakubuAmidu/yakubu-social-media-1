@@ -18,6 +18,13 @@ app.use(morgan('common'));
 
 const port = 3000 || 5000;
 
+// Routes
+const userRoute = require('./routes/users');
+const authRoute = require('./routes/auth');
+
+app.use("/api/users", userRoute);
+app.use("/api/auth", authRoute);
+
 app.listen(port, () => {
   console.log("Server connected...👍");
 });
