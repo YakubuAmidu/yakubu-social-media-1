@@ -10,7 +10,7 @@ const UserSchema = new mongoose.Schema({
   },
   email: {
     type: String,
-    require: true,
+    required: true,
     unique: true,
     max: 50
   },
@@ -20,7 +20,7 @@ const UserSchema = new mongoose.Schema({
      min: 6
   },
   profilePicture: {
-    type: Strine,
+    type: String,
     default: ""
   },
   coverPicture: {
