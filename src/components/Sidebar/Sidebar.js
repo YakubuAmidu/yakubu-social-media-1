@@ -15,7 +15,7 @@ export default function Sidebar() {
     <div className='sidebar'>
       <div className='sidebarWrapper'>
         <ul className='sidebarList'>
-          
+
         <li className='sidebarListItem'>
         <RssFeed className="sidebarIcon"/>
         <span className='sidebarListItemText'>Feed</span>
@@ -60,6 +60,15 @@ export default function Sidebar() {
         <School className="sidebarIcon"/>
         <span className='sidebarListItemText'>Courses</span>
         </li>
+        </ul>
+
+        <button className='sidebarButton'>Show more</button>
+        <hr className='sidebarHr' />
+        <ul className="sidebarFriendList">
+          <li className="sidebarFriend">
+            <img className="sidebarFriendImg" src="/assets/persons/profile-11.png" alt="img" />
+            <span className="sidebarFriendName">Jane Doe</span>
+          </li>
         </ul>
       </div>
     </div>
