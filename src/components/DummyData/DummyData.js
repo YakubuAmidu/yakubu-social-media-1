@@ -2,41 +2,41 @@ export const Users = [
   {
     id: 1,
     profilePicture: '/assets/persons/profile-1.png',
-    userName: 'Yakubu Amidu'
+    username: 'Yakubu Amidu'
   },
   {
     id: 2,
     profilePicture: '/assets/persons/profile-2.png',
-    userName: 'John Doe'
+    username: 'John Doe'
   },
   {
     id: 3,
     profilePicture: '/assets/persons/profile-3.png',
-    userName: 'Yakubu amidu'
+    username: 'Yakubu amidu'
   },
   {
     id: 4,
     profilePicture: '/assets/persons/profile-4.png',
-    userName: 'Kwame inkrumah'
+    username: 'Kwame inkrumah'
   },
   {
     id: 5,
     profilePicture: '/assets/persons/profile-5.png',
-    userName: 'Asamoah Joe'
+    username: 'Asamoah Joe'
   },
   {
     id: 6,
     profilePicture: '/assets/persons/profile-6.png',
-    userName: 'Princesses Duafe'
+    username: 'Princesses Duafe'
   },
   {
     id: 7,
     profilePicture: '/assets/persons/profile-7.png',
-    userName: 'Samanta kudjoe'
+    username: 'Samanta kudjoe'
   },
 ];
 
-export const Post = [
+export const Posts = [
   {
     id: 1,
     desc: 'Love for all, Hatred for non!',
@@ -75,7 +75,6 @@ export const Post = [
   },
   {
     id: 5,
-    desc: 'Ahhh!, am staving. I havent eaten since morning',
     photo: '/assets/post/food-2.png',
     date: '1 hour 30 min ago',
     userId: 5,
@@ -93,7 +92,6 @@ export const Post = [
   },
   {
     id: 7,
-    desc: 'More than ever. Luxury vacation',
     photo: '/assets/post/vacation-1.png',
     date: '40 min ago',
     userId: 7,
