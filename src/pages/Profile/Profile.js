@@ -3,7 +3,7 @@ import Sidebar from '../../components/Sidebar/Sidebar';
 import Feed from '../../components/Feed/Feed';
 import Rightbar from '../../components/RightBar/Rightbar';
 
-import './Profile.scss';
+import './profile.scss';
 
 export default function profile() {
   return (
