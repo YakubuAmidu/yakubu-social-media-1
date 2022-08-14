@@ -1,9 +1,13 @@
-import Home from '../src/pages/home/home';
+import React from 'react';
+
+// import Home from '../src/pages/home/home';
+import Profile from '../src/pages/Profile/Profile';
 
 function App() {
   return (
     <div>
-      <Home />
+      {/* <Home /> */}
+      <Profile />
     </div>
   );
 }
