@@ -1,6 +1,7 @@
-import './login.scss';
+import './register.scss';
 
-export default function login() {
+
+export default function register() {
   return (
     <div className='login'>
       <div className='loginWrapper'>
@@ -12,11 +13,12 @@ export default function login() {
         </div>
         <div className='loginRight'>
           <div className='loginBox'>
+            <input placeholder='Username' className='loginInput' />
             <input placeholder='Email' className='loginInput' />
             <input placeholder='Password' className="loginInput" />
-            <button className='loginButton'>Login</button>
-            <span className='loginForgot'>Forgot password</span>
-            <button className="loginRegisterButton">Create a new account</button>
+            <input placeholder='Password again' className="loginInput" />
+            <button className='loginButton'>Sign up</button>
+            <button className="loginRegisterButton">Log into account</button>
           </div>
         </div>
       </div>
